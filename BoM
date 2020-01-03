@@ -1,0 +1,18 @@
+R1,R7,R8,R10		Resistor 10kΩ SMD1206
+R2			Resistor 1,8kΩ SMD1206
+R3,R4			Resistor 10Ω SMD1206
+R5			Resistor 8,2kΩ SMD1206
+R6			Resistor 270Ω SMD1206
+R9			Resistor 150Ω SMD1206
+R11			Resistor 14kΩ SMD1206
+C1			Cap 470nF SMD1206
+C2			Cap 47uF SMD1206
+C3,C4,C8		Cap 1uF SMD1206
+C5,C6			Cap 22pF SMD1206
+C7			Cap 100nF SMD1206
+X1			Crystal 16MHz 20ppm
+IC1			ATmega32U4-AU TQFP
+IC2			LM2940-5V LDO 1A
+
+
+
