@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12563,8 +12563,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22p"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22p"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10"/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BD139" device="" package3d_urn="urn:adsk.eagle:package:29898/1"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="150"/>
 <part name="J_FAN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
@@ -12574,7 +12574,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="14k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1,8k"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="8,2k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="8,2k"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1u"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
 <part name="J_SENS" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
@@ -12585,7 +12585,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="L_PWR" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="270"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="270"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="IC2" library="LM2940CS-5.0_NOPB" deviceset="LM2940CS-5.0_NOPB" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47u"/>
@@ -12663,10 +12663,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <instance part="R1" gate="G$1" x="101.6" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="104.14" y="147.32" size="1.778" layer="95"/>
 </instance>
-<instance part="R4" gate="G$1" x="86.36" y="111.76" smashed="yes" rot="R180">
+<instance part="R3" gate="G$1" x="86.36" y="111.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="88.9" y="114.3" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="R5" gate="G$1" x="86.36" y="109.22" smashed="yes" rot="R180">
+<instance part="R4" gate="G$1" x="86.36" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="88.9" y="106.9086" size="1.778" layer="95"/>
 </instance>
 <instance part="T1" gate="G$1" x="180.34" y="101.6" smashed="yes">
@@ -12679,25 +12679,25 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <attribute name="VALUE" x="190.5" y="154.94" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="185.42" y="160.02" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="GND3" gate="GND" x="177.8" y="60.96" smashed="yes">
-<attribute name="VALUE" x="179.07" y="63.5" size="1.778" layer="96" rot="MR180"/>
+<instance part="GND3" gate="GND" x="175.26" y="60.96" smashed="yes">
+<attribute name="VALUE" x="176.53" y="63.5" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="P+3" gate="1" x="198.12" y="160.02" smashed="yes">
 <attribute name="VALUE" x="204.47" y="162.56" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R7" gate="G$1" x="198.12" y="134.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="199.6186" y="138.43" size="1.778" layer="95" rot="R270"/>
+<attribute name="NAME" x="199.39" y="134.62" size="1.778" layer="95"/>
 </instance>
 <instance part="R10" gate="G$1" x="190.5" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="187.96" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="R11" gate="G$1" x="177.8" y="74.93" smashed="yes" rot="R270">
-<attribute name="NAME" x="179.07" y="73.66" size="1.778" layer="95"/>
+<instance part="R11" gate="G$1" x="175.26" y="74.93" smashed="yes" rot="R270">
+<attribute name="NAME" x="176.53" y="73.66" size="1.778" layer="95"/>
 </instance>
 <instance part="R2" gate="G$1" x="60.96" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.04" y="128.0414" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="R6" gate="G$1" x="60.96" y="80.01" smashed="yes" rot="R90">
+<instance part="R5" gate="G$1" x="60.96" y="80.01" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.4614" y="76.2" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="C4" gate="G$1" x="66.04" y="81.28" smashed="yes">
@@ -12734,7 +12734,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <attribute name="NAME" x="73.66" y="68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.915" y="71.628" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="76.2" y="88.9" smashed="yes" rot="R270">
+<instance part="R6" gate="G$1" x="76.2" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="77.47" y="88.9" size="1.778" layer="95"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="99.06" y="60.96" smashed="yes">
@@ -12784,7 +12784,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <wire x1="116.84" y1="22.86" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="74.93" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="UGND"/>
 <wire x1="104.14" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
@@ -12872,17 +12872,18 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="69.85" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="E"/>
-<wire x1="182.88" y1="66.04" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
-<junction x="177.8" y="66.04"/>
-<wire x1="205.74" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="69.85" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
+<junction x="175.26" y="66.04"/>
+<wire x1="205.74" y1="66.04" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="J_SENS" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="110.49" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="212.09" y1="110.49" x2="205.74" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
-<wire x1="177.8" y1="63.5" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="63.5" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="E"/>
+<wire x1="182.88" y1="96.52" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
+<junction x="182.88" y="66.04"/>
 </segment>
 </net>
 <net name="SENS" class="0">
@@ -12940,7 +12941,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <pinref part="IC1" gate="G$1" pin="VBUS"/>
 <wire x1="104.14" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
 <junction x="99.06" y="134.62"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="93.98" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
 <junction x="76.2" y="154.94"/>
 <pinref part="IC1" gate="G$1" pin="AVCC"/>
@@ -13010,7 +13011,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 </net>
 <net name="USB_D-" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -13021,14 +13022,14 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 </net>
 <net name="D-" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="D-"/>
 <wire x1="91.44" y1="111.76" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_D+" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -13039,7 +13040,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 </net>
 <net name="D+" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="D+"/>
 <wire x1="91.44" y1="109.22" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -13074,7 +13075,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <net name="AREF" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="121.92" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="AREF"/>
 <wire x1="60.96" y1="99.06" x2="60.96" y2="85.09" width="0.1524" layer="91"/>
@@ -13156,16 +13157,16 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm2940c.pdf"&gt; Datasheet 
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="80.01" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="80.01" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
-<wire x1="177.8" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
-<junction x="177.8" y="83.82"/>
+<wire x1="175.26" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="83.82" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
+<junction x="175.26" y="83.82"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="L_PWR" gate="G$1" pin="A"/>
 <wire x1="76.2" y1="83.82" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
 </segment>
